@@ -31,6 +31,22 @@ h1 {
     background-color: gray;
 }
 
+.win-message {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 20px auto;
+    width: fit-content;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
 .game-board {
     max-width: 400px;
     margin: 40px auto;
@@ -81,3 +97,30 @@ h1 {
     color: darkgray;
     transform: rotateY(180deg);
 }
+
+.card.match{
+    border: 3px solid green;
+    animation: flashGreen 0.5s;
+}
+
+.card.mismatch{
+    border: 3px solid red;
+    animation: shake 0.5s;
+}
+
+.win-message {
+    background-color: #4caf50;
+    color: white;
+    padding: 15px 20px;
+    border-radius: 10px;
+    font-size: 1.2rem;
+    margin: 10px auto;
+    width: fit-content;
+    text-align: center;
+    animation: fadeIn 0.5s ease-in-out;
+  }
+  
+  .hidden {
+    display: none;
+  }
+  
